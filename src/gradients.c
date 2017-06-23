@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdarsie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/05/26 15:46:10 by sdarsie           #+#    #+#             */
-/*   Updated: 2017/05/26 15:46:58 by sdarsie          ###   ########.fr       */
+/*   Created: 2017/06/02 21:19:56 by sdarsie           #+#    #+#             */
+/*   Updated: 2017/06/02 21:20:54 by sdarsie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void	make_second_part(unsigned int *colors)
 {
-   	colors[17] = 0x5C8BF0;
+	colors[17] = 0x5C8BF0;
 	colors[18] = 0x5384EF;
 	colors[19] = 0x497DEE;
 	colors[20] = 0x4077ED;
@@ -111,7 +111,7 @@ static void	make_fifth_part(unsigned int *colors)
 	colors[99] = 0xFFFFFF;
 }
 
-void	make_first_part(unsigned int *colors)
+void		make_first_part(unsigned int *colors)
 {
 	colors[0] = 0xFFFFFF;
 	colors[1] = 0xF5F8FE;
@@ -135,4 +135,3 @@ void	make_first_part(unsigned int *colors)
 	make_fourth_part(colors);
 	make_fifth_part(colors);
 }
-

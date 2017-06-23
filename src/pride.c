@@ -1,10 +1,20 @@
-/* header */
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   pride.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sdarsie <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/03 17:26:08 by sdarsie           #+#    #+#             */
+/*   Updated: 2017/06/03 17:26:40 by sdarsie          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../fractal.h"
 
-void pride5(unsigned int *color)
+void	pride5(unsigned int *color)
 {
-  	color[86] = 0x91A108;
+	color[86] = 0x91A108;
 	color[87] = 0xC5DA10;
 	color[88] = 0xBBDD17;
 	color[89] = 0xB1E11F;
@@ -21,9 +31,9 @@ void pride5(unsigned int *color)
 	color[100] = 0x000000;
 }
 
-void pride4(unsigned int *color)
+void	pride4(unsigned int *color)
 {
-  	color[69] = 0xE2E2E2;
+	color[69] = 0xE2E2E2;
 	color[70] = 0xC6C6C6;
 	color[71] = 0xAAAAAA;
 	color[72] = 0x8D8D8D;
@@ -43,9 +53,9 @@ void pride4(unsigned int *color)
 	pride5(color);
 }
 
-void pride3(unsigned int *color)
+void	pride3(unsigned int *color)
 {
-  	color[46] = 0x5F08FF;
+	color[46] = 0x5F08FF;
 	color[47] = 0x6F05FF;
 	color[48] = 0x7F02FF;
 	color[49] = 0x8F00FF;
@@ -71,9 +81,9 @@ void pride3(unsigned int *color)
 	pride4(color);
 }
 
-void pride2(unsigned int *color)
+void	pride2(unsigned int *color)
 {
-  	color[23] = 0xAAE90B;
+	color[23] = 0xAAE90B;
 	color[24] = 0x8DED0F;
 	color[25] = 0x71F012;
 	color[26] = 0x55F416;
@@ -99,7 +109,7 @@ void pride2(unsigned int *color)
 	pride3(color);
 }
 
-void pride(unsigned int *color)
+void	pride(unsigned int *color)
 {
 	color[0] = 0xF00008;
 	color[1] = 0xF10D07;

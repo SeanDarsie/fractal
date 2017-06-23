@@ -1,19 +1,28 @@
-/* header */
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   christmas.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sdarsie <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/02 21:12:52 by sdarsie           #+#    #+#             */
+/*   Updated: 2017/06/02 21:14:21 by sdarsie          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../fractal.h"
 
-
-void christmas5(unsigned int *color)
+void	christmas5(unsigned int *color)
 {
-  	color[87] = 0x000000;
-	color[88] = 0x000000;
-	color[89] = 0x000000;
-	color[90] = 0x000000;
-	color[91] = 0x000000;
-	color[92] = 0x000000;
-	color[93] = 0x000000;
-	color[94] = 0x000000;
-	color[95] = 0x000000;
+	color[87] = 0xD9E9D7;
+	color[88] = 0xE0EEDF;
+	color[89] = 0xE8F2E7;
+	color[90] = 0xEFF6EF;
+	color[91] = 0xF7FAF7;
+	color[92] = 0xFFFFFF;
+	color[93] = 0xFFFFFF;
+	color[94] = 0xFFFFFF;
+	color[95] = 0xFFFFFF;
 	color[96] = 0x000000;
 	color[97] = 0x000000;
 	color[98] = 0x000000;
@@ -21,28 +30,29 @@ void christmas5(unsigned int *color)
 	color[100] = 0x000000;
 }
 
-void christmas4(unsigned int *color)
+void	christmas4(unsigned int *color)
 {
-  	color[73] = 0x000000;
-	color[74] = 0x000000;
-	color[75] = 0x000000;
-	color[76] = 0x000000;
-	color[77] = 0x000000;
-	color[78] = 0x000000;
-	color[79] = 0x000000;
-	color[80] = 0x000000;
-	color[81] = 0x000000;
-	color[82] = 0x000000;
-	color[83] = 0x000000;
-	color[84] = 0x000000;
-	color[85] = 0x000000;
-	color[86] = 0x000000;
+	color[72] = 0x67AA60;
+	color[73] = 0x6EAF68;
+	color[74] = 0x76B370;
+	color[75] = 0x7EB778;
+	color[76] = 0x85BB80;
+	color[77] = 0x8DBF88;
+	color[78] = 0x94C48F;
+	color[79] = 0x9CC897;
+	color[80] = 0xA3CC9F;
+	color[81] = 0xABD0A7;
+	color[82] = 0xB3D4AF;
+	color[83] = 0xBAD9B7;
+	color[84] = 0xC2DDBF;
+	color[85] = 0xC9E1C7;
+	color[86] = 0xD1E5CF;
 	christmas5(color);
 }
 
-void christmas3(unsigned int *color)
+void	christmas3(unsigned int *color)
 {
-  	color[48] = 0x3F6817;
+	color[48] = 0x3F6817;
 	color[49] = 0x3D6A17;
 	color[50] = 0x3B6C17;
 	color[51] = 0x396E17;
@@ -58,21 +68,20 @@ void christmas3(unsigned int *color)
 	color[61] = 0x268118;
 	color[62] = 0x248318;
 	color[63] = 0x238519;
-	color[64] = 0x000000;
-	color[65] = 0x000000;
-	color[66] = 0x000000;
-	color[67] = 0x000000;
-	color[68] = 0x000000;
-	color[69] = 0x000000;
-	color[70] = 0x000000;
-	color[71] = 0x000000;
-	color[72] = 0x000000;
+	color[64] = 0x2A8920;
+	color[65] = 0x328D28;
+	color[66] = 0x399130;
+	color[67] = 0x419538;
+	color[68] = 0x489A40;
+	color[69] = 0x509E48;
+	color[70] = 0x58A250;
+	color[71] = 0x5FA658;
 	christmas4(color);
 }
 
-void christmas2(unsigned int *color)
+void	christmas2(unsigned int *color)
 {
-  	color[24] = 0x6D3A14;
+	color[24] = 0x6D3A14;
 	color[25] = 0x6B3C14;
 	color[26] = 0x693E14;
 	color[27] = 0x674015;
@@ -99,7 +108,7 @@ void christmas2(unsigned int *color)
 	christmas3(color);
 }
 
-void christmas(unsigned int *color)
+void	christmas(unsigned int *color)
 {
 	color[0] = 0x9B0D12;
 	color[1] = 0x990E12;
